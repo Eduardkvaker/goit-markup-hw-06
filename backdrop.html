@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="look-around">
+                <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
+                <ul class="nav">
+                    <li><a class="nav-link current" href="./index.html">Студія</a></li>
+                    <li><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
+                    <li><a class="nav-link" href="">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul class="list-nav">
+                <li><a class="mail" href="mailto:info@devstudio.com">
+                        <svg class="post" width="16" heigth="12">
+                            <use href="./images/sprait.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a></li>
+                <li><a class="phone" href="tel:+380961111111">
+                        <svg class="telephone" width="10" heigth="16">
+                            <use href="./images/sprait.svg#icon-Vector"></use>
+                        </svg>
+                        +38(096)111-11-11
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="btn" type="button" data-modal-open>Замовити послугу</button>
+            </div>
+        </section>
+        <section class="noname">
+            <div class="container noname-container">
+                <ul class="items">
+                    <li class="point">
+                        <a class="icoli" href="">
+                            <svg class="point-icon" wedth="70" height="70">
+                                <use href="./images/sprait.svg#icon-antenna-1">
+                                </use>
+                            </svg>
+                        </a>
+                        <h3 class="caption">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="text"> Ідейні міркування, i навіть початок повсякденної роботи з формування позиції.</p>
+                    </li>
+                    <li class="point">
+                        <a class="icoli" href="">
+                            <svg class="point-icon" wedth="70" height="70">
+                                <use href="./images/sprait.svg#icon-clock-1">
+                                </use>
+                            </svg>
+                        </a>
+                        <h3 class="caption">ПУНКТУАЛЬНІСТЬ</h3>
+                        <p class="text">Завдання організації, особливо рамки i місце навчання кадрів тягне у себе</p>
+                    </li>
+                    <li class="point">
+                        <a class="icoli" href="">
+                            <svg class="point-icon" wedth="70" height="70">
+                                <use href="./images/sprait.svg#icon-diagram-1">
+                                </use>
+                            </svg>
+                        </a>
+                        <h3 class="caption">ПЛАНУВАННЯ</h3>
+                        <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </li>
+                    <li class="point">
+                        <a class="icoli" href="">
+                            <svg class="point-icon" wedth="70" height="70">
+                                <use href="./images/sprait.svg#icon-astronaut-1">
+                                </use>
+                            </svg>
+                        </a>
+                        <h3 class="caption">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <div class="backdrop is-hidden" data-modal-close>
+        <div class="modal">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eum, minima dolore debitis iure reiciendis rem suscipit
+                eligendi exercitationem ea libero pariatur cumque enim
+                eius officia doloremque cupiditate modi sed blanditiis?
+            </p>
+            <button data-modal>Зачинити</button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
