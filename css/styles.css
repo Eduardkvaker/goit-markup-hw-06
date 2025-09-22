@@ -408,6 +408,9 @@ display: flex;
     /* 171.429% */
     letter-spacing: 0.42px;
 }
+.for-ma{
+    display: flex;
+}
 /*стиль portfolio*/
 .title-hidden {
     color: #000;
