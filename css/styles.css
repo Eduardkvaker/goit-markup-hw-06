@@ -408,6 +408,10 @@ display: flex;
     /* 171.429% */
     letter-spacing: 0.42px;
 }
+.add-social{
+    margin-right: 93px;
+}
+
 /*стиль portfolio*/
 .title-hidden {
     color: #000;
