@@ -99,12 +99,25 @@
     <div class="backdrop is-hidden" data-modal-close>
         <div class="modal">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eum, minima dolore debitis iure reiciendis rem suscipit
-                eligendi exercitationem ea libero pariatur cumque enim
-                eius officia doloremque cupiditate modi sed blanditiis?
+                Залиште свої дані, ми вам передзвонимо
             </p>
-            <button data-modal>Зачинити</button>
+           <div class="form-backdrop">
+            <form>
+                <label>
+                    Ім'я
+                    <input type="text" name="Ім'я" autofocus>
+                </label>
+                <label>
+                    Телефон
+                    <input type="tel" name="tel">
+                </label>
+                <label>
+                    Пошта
+                    <input type="email" name="email">
+                </label>
+                <button data-modal>Зачинити</button>
+            </form>
+           </div>
         </div>
     </div>
     <script src="./js/modal.js"></script>
